@@ -30,6 +30,13 @@ namespace VariousTypes
             Console.WriteLine(down);
             Console.WriteLine(radioactive);
             Console.WriteLine(biohazard);
+
+            double real = 5.1515;
+            float flt_real = 5.1515f;
+            decimal dec_real = 5.1515m;
+            Console.WriteLine(real);
+            Console.WriteLine(flt_real);
+            Console.WriteLine(dec_real);
         }
     }
 }
