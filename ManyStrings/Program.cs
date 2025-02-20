@@ -8,6 +8,10 @@ namespace ManyStrings
         private static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+            
+            //Declare variables
+            double xx = 1.23456;
+            int ii  = 19;
 
             //Declare and assign values to string variables
             string tab = "Um tab\t para dar mais espaço";
@@ -30,6 +34,12 @@ namespace ManyStrings
             Console.WriteLine("Tenho " + 35 + " anos.");
             Console.WriteLine($"Há várias estrelas no céu {emoji}{emoji}{emoji}");
             Console.WriteLine($"O meu nome completo é {f_name + s_name}");
+
+            //show some ways of formatting variables
+            Console.WriteLine($"xx = {xx:f2}");
+            Console.WriteLine($"Percentagem de xx = {xx:p1}");
+            Console.WriteLine($"Hexadecimal de ii = {ii:x}");
+            Console.WriteLine($"Moeda de ii = {ii:c}");
         }
     }
 }
