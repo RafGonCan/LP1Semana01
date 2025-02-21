@@ -15,6 +15,7 @@ namespace AskForInput
             string input_real = Console.ReadLine();
             double conv_real = Convert.ToSingle(input_real);
 
+            Console.WriteLine($"A soma entre {conv_int} e {conv_real} é {conv_int + conv_real}.");
         }
     }
 }
