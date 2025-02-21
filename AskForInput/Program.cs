@@ -18,7 +18,7 @@ namespace AskForInput
             //Declare and assign input variable
             string input_real = Console.ReadLine();
             //Convert input into double
-            double conv_real = Convert.ToSingle(input_real);
+            float conv_real = Convert.ToSingle(input_real);
 
             //Sentence with the sum of int and double variables 
             Console.WriteLine($"A soma entre {conv_int} e {conv_real} é {conv_int + conv_real}.");
